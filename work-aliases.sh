@@ -5,3 +5,6 @@ findw() {
     find . -name "*$1*"
 }
 alias findswap='find . -name "*.sw*"'
+gbs() {
+    gulp build:scripts --module="$1"
+}
