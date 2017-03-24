@@ -1,7 +1,11 @@
+alias back='con;cd ../'
 alias gbd='gulp build:dev'
 alias gby='gulp build:styles'
-alias lsa='ls -1'
 alias findswap='find . -name "*.sw*"'
+alias front='tpl;cd ../'
+alias lsa='ls -1'
+alias cgd='clear;git diff'
+
 function findw() {
     find . -name "*$1*"
 }
