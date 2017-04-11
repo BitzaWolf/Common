@@ -5,6 +5,10 @@ alias findswap='find . -name "*.sw*"'
 alias front='tpl;cd ../'
 alias lsa='ls -1'
 alias cgd='clear;git diff'
+alias fv='front;vim'
+alias bv='back;vim'
+alias fvc='clear;fv'
+alias bcv='clear;bv'
 
 function findw() {
     find . -name "*$1*"
