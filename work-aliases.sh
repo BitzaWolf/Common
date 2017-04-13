@@ -1,6 +1,7 @@
 alias back='con;cd ../'
-alias gbd='gulp build:dev'
-alias gby='gulp build:styles'
+alias gbd='jake build=dev'
+alias gby='jake styles:all'
+alias jw='jake watch:all'
 alias findswap='find . -name "*.sw*"'
 alias front='tpl;cd ../'
 alias lsa='ls -1'
@@ -12,7 +13,4 @@ alias bcv='clear;bv'
 
 function findw() {
     find . -name "*$1*"
-}
-function gbs() {
-    gulp build:scripts --module="$1"
 }
